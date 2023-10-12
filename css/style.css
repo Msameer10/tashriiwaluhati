@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Reem+Kufi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body{
+    background: -webkit-linear-gradient(#ffffff, #FFFEFE
+    , #FFF9F9, #FCF3F3, #FFE2E2, #F7ADAD, #D54D4D, #A93226, #800000);
+    /* background: -webkit-radial-gradient(red, black ,blue); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* h1 CSS */
+
+h1 {
+    position: absolute;
+    top: -100px; /* Initial position above the viewport */
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0; /* Start with 0 opacity */
+    font-size: 2.2em;
+    animation: slide-down 8s ease 1s forwards; /* Animation duration and delay */
+}
+
+@keyframes slide-down {
+    from {
+        top: -100px;
+        opacity: 0;
+    }
+    to {
+        top: 50px; /* Final position */
+        opacity: 1; /* Fully visible */
+    }
+}
+
+#h1_eng{
+    font-family: 'Playfair Display', 'Cinzel Decorative';
+    color: #D35400;
+}
+
+#h1_ara{
+    font-family: 'Reem Kufi';
+    color: #BA4A00;
+}
+
+/* footer */
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #F2F3F4;
+    padding: 10px 0;
+    font-family: 'Quintessential';
+}
