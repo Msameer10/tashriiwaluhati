@@ -28,7 +28,7 @@ h1 {
     transform: translateX(-50%);
     opacity: 0; /* Start with 0 opacity */
     font-size: 2.2em;
-    animation: slide-down 8s ease 1s forwards; /* Animation duration and delay */
+    animation: slide-down 1s ease 1s forwards; /* Animation duration and delay */
 }
 
 @keyframes slide-down {
