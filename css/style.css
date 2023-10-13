@@ -17,40 +17,69 @@ body{
     /* background: -webkit-radial-gradient(red, black ,blue); */
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Playfair Display';
 }
 
 /* h1 CSS */
 
 h1 {
-    position: absolute;
-    top: -100px; /* Initial position above the viewport */
-    left: 50%;
-    transform: translateX(-50%);
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Center-align the h1 element */
+    font-size: 2.8em;
+    transform: translateY(-100px); /* Initial vertical position above the viewport */
     opacity: 0; /* Start with 0 opacity */
-    font-size: 2.2em;
     animation: slide-down 1s ease 1s forwards; /* Animation duration and delay */
 }
 
 @keyframes slide-down {
     from {
-        top: -100px;
+        transform: translateY(-100px); /* Initial position */
         opacity: 0;
     }
     to {
-        top: 50px; /* Final position */
+        transform: translateY(0); /* Final position */
         opacity: 1; /* Fully visible */
     }
 }
 
-#h1_eng{
+#h1_eng {
     font-family: 'Playfair Display', 'Cinzel Decorative';
     color: #D35400;
 }
 
-#h1_ara{
+#h1_ara {
     font-family: 'Reem Kufi';
     color: #BA4A00;
 }
+
+.custom-card {
+    transition: opacity 0.2s;
+    animation: fadeIn 1s ease-in-out forwards;
+    animation-delay: 1.5s;
+    opacity: 0;
+    border: 0;
+    height: 50vh;
+    font-size: 2rem;
+    border-radius: 0;
+}
+  
+.custom-card:hover {
+    transform: scale(1.1);
+}
+  
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+}
+  
+
+  
+  
 
 /* footer */
 
