@@ -9,31 +9,97 @@
     <title>Tashrī'ī wa Luḥatī</title>
 </head>
 <body>
-    <h1 class="text-center mt-3"><span id="h1_eng">Tashrī'ī wa Luḥatī</span><br><span id="h1_ara">تشريعي ولوحتي</span></h1>
-    <div class="container mt-5">
-        <div class="row">
-          <div class="col-md-4 d-flex justify-content-center mt-5">
-            <div class="card custom-card">
-              <img src="image1.jpg" class="card-img-top text-center" alt="Image 1">
-              <div class="card-body">
-                <h5 class="card-title">Card 1</h5>
-                <p class="card-text">Some text here.</p>
-              </div>
-            </div>
-      
-            <div class="card custom-card">
-              <img src="image1.jpg" class="card-img-top text-center" alt="Image 2">
-              <div class="card-body">
-                <h5 class="card-title">Card 2</h5>
-                <p class="card-text">Some text here.</p>
-              </div>
-            </div>
-          </div>
-          <!-- Add more cards with the same structure -->
+<h1 class="text-center mt-3"><span id="h1_eng">Tashrī'ī wa Luḥatī</span><br><span id="h1_ara">تشريعي ولوحتي</span></h1>
+<div class="container mt-5">
+  <div class="row" id="main-view">
+      <div class="col-md-6 custom-div left-div">
+          <p class="p mt-4">Rules<br><span style="font-family: 'Reem Kufi';">تشريع</span></p>
+      </div>
+      <div class="col-md-6 custom-div right-div">
+          <p class="p mt-4">Likes<br><span style="font-family: 'Reem Kufi';">لوحتي الخاصة</span></p>
+      </div>
+  </div>
+</div>
+
+<!-- Rules DIV -->
+<div id="rules" style="display: none;" class="container custom-div">
+  <button id="back-to-main" class="m-4">Back</button>
+  <div class="accordion mt-3" id="accordionExample">
+    <!-- Accordion Item 1 -->
+    <div class="card">
+      <div class="card-header" id="headingOne">
+        <div class="card-body">
+          <h2 data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Rule #1
+          </h2>
         </div>
       </div>
-      
-      
+      <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+        <div class="card-body">
+          Content for Accordion Item #1
+        </div>
+      </div>
+    </div>
+
+    <!-- Accordion Item 2 -->
+    <div class="card">
+      <div class="card-header" id="headingTwo">
+        <div class="card-body">
+          <h2 data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+            Rule #2
+          </h2>
+        </div>
+      </div>
+      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+        <div class="card-body">
+          Content for Accordion Item #2
+        </div>
+      </div>
+    </div>
+
+    <!-- Accordion Item 3-->
+    <div class="card">
+      <div class="card-header" id="headingThree">
+        <div class="card-body">
+          <h2 data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+            Rule #3
+          </h2>
+        </div>
+      </div>
+      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+        <div class="card-body">
+          Content for Accordion Item #3
+        </div>
+      </div>
+    </div>
+
+    <!-- Accordion Item 
+    <div class="card">
+      <div class="card-header" id="headingRep">
+        <div class="card-body">
+          <h2 data-toggle="collapse" data-target="#collapseRep" aria-expanded="true" aria-controls="collapseRep">
+            Rule #2
+          </h2>
+        </div>
+      </div>
+      <div id="collapseRep" class="collapse" aria-labelledby="headingRep" data-parent="#accordionExample">
+        <div class="card-body">
+          Content for Accordion Item #2
+        </div>
+      </div>
+    </div> -->
+
+    <!-- Add more accordion items as needed -->
+</div>
+</div>
+
+<!-- Likes DIV -->
+<div id="likes" style="display: none;" class="container custom-div">
+  <p>This is the "Likes" content.</p>
+  <button id="back-to-main" class="m-4">Back</button>
+</div>
+
+
 
 <footer>
     <div class="container"><p class="text-center">Copyrights &copy; <span id="year" style="font-family: Arial;"></span> <span style="font-family: 'Cinzel';">Samineon</span>. All rights Reserved.</p></div>
