@@ -4,6 +4,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
+@font-face {
+    font-family: 'Mustopha';
+    src: url('mustopha-font/MustophaRegular-eZ3gm.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 
 
@@ -103,11 +109,11 @@ h2{
     font-size: 3.5rem;
     font-weight: bold;
     color: #A04000;
-    font-family: 'Tangerine';
+    font-family: 'Mustopha';
 }
 
 .card-header{
-    background-color: #F0B27A;
+    background-color: #ffe7d2;
 }
 
 .card-body{
