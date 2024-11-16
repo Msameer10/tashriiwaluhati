@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
 @font-face {
     font-family: 'Mustopha';
     src: url('mustopha-font/MustophaRegular-eZ3gm.ttf') format('truetype');
@@ -99,17 +100,17 @@ h1 {
 }
 
 #back-to-main, #back-to-main-likes{
-    font-family: 'Quintessential', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: monospace;, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
     font-size: 1.5em;
 }
 
 
 h2{
-    font-size: 3.5rem;
+    font-size: 1.6rem;
     font-weight: bold;
     color: #A04000;
-    font-family: 'Mustopha';
+    font-family: 'Playfair Display';
 }
 
 .card-header{
@@ -117,8 +118,9 @@ h2{
 }
 
 .card-body{
-    font-family: 'Quintessential';
-    font-size: 2rem;
+    font-family: Urbanist;
+    font-size: 1.2rem;
+    font-weight: bold;
 }
 
 /* footer */
